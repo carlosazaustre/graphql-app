@@ -1,0 +1,47 @@
+{
+  "name": "graphql-app",
+  "version": "1.0.0",
+  "description": "GraphQL App example using redux and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosazaustre/graphql-app.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "immutable",
+    "graphql",
+    "express",
+    "node"
+  ],
+  "author": "Carlos Azaustre <cazaustre@gmail.com> (https://carlosazaustre.es/blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosazaustre/graphql-app/issues"
+  },
+  "homepage": "https://github.com/carlosazaustre/graphql-app#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "immutable": "^3.8.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
